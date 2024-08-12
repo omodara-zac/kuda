@@ -1,0 +1,206 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 5px 3px rgb(227, 226, 226);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    background-color: white;
+   
+}
+.img-link {
+    align-items: center;
+    gap: 50px;
+}
+.nav-link {
+   gap: 50px;
+}
+.link-name {
+    color: #470c8a;
+    font-size: 13px;
+}
+.nav-right {
+    padding-right: 60px;
+    /* align-items: center; */
+}
+.naija {
+    width: 40px;
+    /* background-color: green; */
+    border-radius: 50%;
+}
+.join-kuda {
+    width: 100px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: rgb(249,249,249);
+    border: none;
+    padding: 5px;
+    font-size: 13px;
+    border: 3px solid rgb(193,182,207);
+    
+}
+/* .join-kuda:hover {
+    transition: transform 1s;
+    transform: translateY(-5px);
+
+} */
+.link-name2 {
+    color: #40196D;
+    font-size: 13px;
+    /* margin-top: 20px; */
+}
+.nav-last {
+    align-items: center;
+}
+.scan {
+    color: #40196D;
+}
+.first-sec {
+    margin-top: 140px;
+    gap: 80px;
+    animation: up 3s linear 1;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+}
+@keyframes up {
+    100% {
+       transform: translateY(-30px); 
+    }
+
+}
+.download {
+    font-weight: 800;
+    color: rgb(64,25,109);
+}
+.camera {
+    font-size: 18px;
+}
+.download-div {
+    margin-top: 40px;
+    margin-left: 180px;
+}
+.join-pic {
+    margin-top: 20px;
+}
+.fully {
+    font-size: 12px;
+    color: rgb(175,175,175);
+    
+}
+.pics {
+    margin-bottom: 50px;
+}
+.second-sec {
+    display: flex;
+    gap: 10px;
+    height: 240px;
+    margin-left: 170px;
+    margin-bottom: 130px;
+    overflow: hidden;
+}
+.cards {
+    width: 320px;
+    height: 140px;
+    border: medium solid white;
+    margin-top: 60px;
+    box-shadow: 0px 0px 5px 3px rgb(227, 226, 226);
+    padding: 20px;
+    margin-top: 10px;
+    /* padding-left: 20px; */
+  
+}
+.first-card {
+    color: rgb(64,25,109);
+    font-weight: 600;
+    font-size: 15px;
+}
+.second-card {
+    color: rgb(64,25,109);
+    font-weight: 600;
+    font-size: 15px;
+}
+.third-card {
+    color: rgb(64,25,109);
+    font-weight: 600;
+    font-size: 15px;
+}
+.third-sec {
+    gap: 60px;
+    margin-left: 100px;
+    overflow: hidden;
+}
+.div-link {
+    line-height: 2;
+}
+.div-link2 {
+    line-height: 2;
+}
+.div-link3 {
+    line-height: 2;
+}
+.anchor-div {
+text-decoration: none;
+font-size: 12px;
+color: rgb(18,18,18);
+}
+.link-p {
+    color: #40196D;
+    font-weight: 300;
+}
+.linking {
+    gap: 30px;
+}
+.fourth-sec {
+    margin-top: 40px;
+    margin-left: 100px;
+    overflow: hidden;
+}
+.product {
+    /* border: medium solid black; */
+    /* width: 370px; */
+    margin-left: 500px;
+    margin-top: 30px;
+    color: rgb(196,196,196);
+}
+.fifth-sec {
+    margin-right: 100px;
+    overflow: hidden;
+}
+.six-sec {
+    margin-left: 100px;
+    gap: 70px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.help {
+    color: #470c8a;
+}
+.contact {
+    color: #470c8a;
+}
+.places {
+    color: #470c8a;
+    /* font-weight: 500; */
+}
+.avenue {
+    font-size: 13px;
+}
+.avenue2 {
+    font-size: 13px;
+}
+.footer-ptags {
+    font-size: 10px;
+    margin-left: 100px;
+    color: rgb(180,180,180);
+}
+@import url(./jresponsiveness.css);

@@ -1,0 +1,142 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* overflow-x: hidden; */
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 5px 3px rgb(227, 226, 226);
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    background-color: #fff;
+}
+.logo {
+    margin-left: 60px;
+}
+.open {
+    margin-right: 70px;
+}
+.acc-bttn {
+   
+    /* height: 38px; */
+    border-radius: 10px;
+    background-color: #fff;
+    border: none;
+    color: rgb(64,25,109);
+    /* padding: 5px; */
+    font-size: 13px;
+    width: 150px;
+    height: 40px;
+}
+.acc-bttn:hover {
+    transition: transform 1s;
+    transform: translateY(-5px);
+
+}
+.welcome {
+    margin-top: 150px;
+    margin-bottom: 90px;
+}
+h1 {
+    color: rgb(64,25,109);
+    font-size: 30px;
+    font-weight: 700;
+    /* border: medium solid; */
+    width: 470px;
+    margin-inline: auto;
+    margin-bottom: 30px;
+}
+.box {
+    /* border: medium solid black; */
+    width: 800px;
+    height: 600px;
+}
+.all {
+    /* border: medium solid black; */
+    width: 800px;
+    margin-inline: auto;
+}
+h4 {
+    
+    margin-bottom: 40px;
+}
+.all-p {
+    /* margin-top: 20px; */
+    margin-bottom: 40px;
+    /* font-size: 12px; */
+    /* border: medium solid; */
+    /* padding-top: 20px; */
+    /* align-items: center; */
+    /* padding-left: 300px; */
+}
+/* .arrow {
+    padding-left: 700px;
+    font-size: 15px;
+    color: rgb(64,25,109);
+}
+.arrow2 {
+    padding-left: 700px;
+    font-size: 15px;
+    color: rgb(64,25,109);
+}
+.arrow3 {
+    padding-left: 625px;
+    font-size: 15px;
+    color: rgb(64,25,109);
+}
+.arrow4 {
+    padding-left: 558px;
+    font-size: 15px;
+    color: rgb(64,25,109);
+}
+.arrow5 {
+    padding-left: 605px;
+    font-size: 15px;
+    color: rgb(64,25,109);
+}
+.arrow6 {
+    padding-left: 705px;
+    font-size: 15px;
+    color: rgb(64,25,109);
+    margin-top: -30px;
+} */
+.flex-div {
+    display: flex;
+}
+.arrow-div {
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+.arrow {
+    padding-bottom: 40px;
+    color: rgb(64,25,109);
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    /* .welcome {
+        border: 2px solid;
+        width: 340px;
+        white-space: nowrap;
+        margin-left: 0px;
+        font-size: 3em;
+    } */
+    .all {
+        /* margin-inline: auto;
+        width: 380px; */
+        margin-left: 20px;
+        /* margin-right: 90px; */
+    }
+    .arrow-div {
+        margin-right: 30px;
+    }
+}

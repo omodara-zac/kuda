@@ -1,0 +1,492 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* background-color: red; */
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 5px 3px rgb(227, 226, 226);
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+}
+
+nav {
+    width: 80%;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* box-shadow: 0px 0px 5px 3px rgb(227, 226, 226); */
+    /* padding: 10px;
+    position: fixed; */
+    margin-inline: auto;
+    /* width: 100%; */
+    /* z-index: 1000; */
+    top: 0;
+    background-color: white;
+    /* border: medium solid black; */
+}
+
+.img-link {
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-link {
+    gap: 20px;
+    border: 4px solid rgb(109, 2, 171);
+}
+
+.link-name {
+    color: #470c8a;
+    font-size: 13px;
+}
+
+.nav-right {
+    margin-left: 60px;
+    /* align-items: center; */
+}
+
+.naija {
+    width: 40px;
+    /* background-color: green; */
+    border-radius: 50%;
+}
+
+.join-kuda {
+    width: 100px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #40196D;
+    border: none;
+    padding: 5px;
+    font-size: 13px;
+
+}
+
+.join-kuda:hover {
+    transition: transform 1s;
+    transform: translateY(-5px);
+
+}
+
+.link-name2 {
+    color: #40196D;
+    font-size: 13px;
+    /* margin-top: 20px; */
+}
+
+.nav-last {
+    align-items: center;
+}
+
+.hero-top {
+     justify-content: space-between;
+    /* border: medium solid; */
+    width: 900px;
+    margin-inline: auto;
+    /* height: 600px; */
+    margin-top: 150px;
+    /* gap: 60px;  */
+}
+
+.contact-us {
+    font-size: 3em;
+    font-weight: 600;
+    /* margin-left: 180px; */
+    color: #40196D;
+}
+
+.customers {
+    font-size: 1em;
+    /* margin-left: 180px; */
+}
+.pic {
+    /* margin-right: 150px;
+    margin-top: -20px; */
+}
+.third-sec {
+    gap: 60px;
+    margin-left: 80px;
+    /* overflow: hidden; */
+}
+
+.div-link {
+    line-height: 2;
+}
+
+.div-link2 {
+    line-height: 2;
+}
+
+.div-link3 {
+    line-height: 2;
+}
+
+.anchor-div {
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(18, 18, 18);
+}
+
+.link-p {
+    color: #40196D;
+    font-weight: 300;
+}
+
+.linking {
+    gap: 30px;
+}
+
+.fourth-sec {
+    margin-top: 40px;
+    margin-left: 50px;
+    /* overflow: hidden; */
+}
+
+.product {
+    /* border: medium solid black; */
+    /* width: 370px; */
+    margin-left: 500px;
+    margin-top: 30px;
+    color: rgb(196, 196, 196);
+}
+
+/* .fifth-sec {
+    margin-right: 100px;
+    overflow: hidden;
+} */
+
+.six-sec {
+    margin-left: 50px;
+    gap: 70px;
+    margin-bottom: 30px;
+    /* overflow: hidden; */
+}
+
+.help {
+    color: #470c8a;
+}
+
+.contact {
+    color: #470c8a;
+}
+
+.places {
+    color: #470c8a;
+    /* font-weight: 500; */
+}
+
+.avenue {
+    font-size: 13px;
+}
+
+.avenue2 {
+    font-size: 13px;
+}
+
+footer {
+    overflow: hidden;
+}
+
+.footer-ptags {
+    font-size: 10px;
+    margin-left: 50px;
+    color: rgb(180, 180, 180);
+}
+
+
+
+.help2 {
+    /* border: medium solid black; */
+    width: 300px;
+    /* margin-left: 180px; */
+    margin-bottom: 30px;
+}
+
+.self-help {
+    text-decoration: underline;
+    color: #40196D;
+    cursor: pointer;
+    /* margin-left: 180px; */
+
+}
+
+/* .home-link {
+    margin-left: 180px;
+    color: #40196D;
+    margin-top: 20px;
+} */
+
+.first-sec {
+    /* border: medium solid black; */
+    /* width: 1200px; */
+    justify-content: space-between;
+    margin-inline: auto;
+    gap: 90px;
+}
+
+
+
+.last-pic {
+    /* border: 2px solid black; */
+    width: 810px;
+    margin-inline: auto;
+    /* margin-left: 200px; */
+    margin-bottom: 50px;
+}
+
+.africans {
+    display: none;
+}
+.eleven {
+    /* border: medium solid black; */
+    background-color: rgb(239,241,255);
+    /* justify-content: space-between; */
+    padding: 50px;
+    width: 820px;
+    margin-inline: auto;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.africaans {
+    color: #40196d;
+    font-weight: 700;
+}
+.join-kuda2 {
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #40196D;
+    border: none;
+    padding: 5px;
+    font-size: 13px;
+
+}
+
+.join-kuda2:hover {
+    transition: transform 1s;
+    transform: translateY(-5px);
+
+}
+.menu-bar {
+    display: none;
+}
+
+
+
+
+
+
+@media screen and (max-width:1200px) {
+    .link-name {
+        display: none;
+    }
+
+    .link-name2 {
+        display: none;
+    }
+
+    .join-kuda {
+        display: none;
+    }
+
+    .join-pics {
+        width: 400px;
+    }
+
+
+    .third-sec {
+        margin-left: 40px;
+        gap: 10px;
+    }
+
+    .fourth-sec {
+        margin-left: 40px;
+    }
+
+    .six-sec {
+        margin-left: 40px;
+        gap: 20px;
+        margin-right: 20px;
+    }
+
+    .footer-ptags {
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+
+    .linking {
+        gap: 20px;
+    }
+
+    .fifth-sec {
+        margin-left: -150px;
+    }
+
+    .london {
+        margin-left: -10px;
+    }
+    .menu-bar {
+        display: inline;
+        /* color: black; */
+    }
+    .menu {
+        color: black;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .naija {
+        margin-left: 220px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .hero-top {
+      margin-left: 20px;
+    }
+
+    .customers {
+       
+    }
+
+    .eleven {
+      margin-left: 60px;
+    }
+
+    .contact-us {
+      
+    }
+
+    .break {
+        display: none;
+    }
+
+    .third-sec {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .link-name {
+        display: none;
+    }
+
+    .link-name2 {
+        display: none;
+    }
+
+    .join-kuda {
+        display: none;
+    }
+
+    .hero-top {
+       flex-direction: column;
+       /* border: 2px solid black; */
+       width: 700px;
+       margin-inline: auto;
+       margin-left: -130px;
+    }
+
+    .contact-us {
+        margin-left: 230px;
+        /* border: 2px solid black; */
+        width: 300px;
+        font-size: 2em;
+    }
+    .customers {
+
+        /* border: 2px solid black; */
+        width: 340px;
+       margin-left: 155px;
+        font-size: 1em;
+    }
+    .help2 {
+        /* border: 2px solid black; */
+        margin-left: 180px;
+    }
+
+    .self-help:nth-child(1) {
+        padding-left: 100px;
+    }
+
+    .self-help:nth-child(2) {
+        padding-left: 50px;
+    }
+    .self-help:nth-child(3) {
+        padding-left: 30px;
+    }
+
+    .pic {
+        width: 380px;
+        /* margin-inline: auto; */
+        margin-left: 140px;
+    }
+    .eleven {
+        width: 300px;
+        margin-left: 50px;
+    }
+        .okay {
+            display: none;
+        }
+        .join-kuda2 {
+            /* margin-left: 150px; */
+        }
+    .third-sec {
+        flex-direction: column;
+        /* border: 2px solid; */
+        /* padding-right: 30px; */
+        gap: -20px;
+        /* width: 300px; */
+    }
+    .product {
+        display: none;
+    }
+
+    .six-sec {
+        flex-direction: column;
+    }
+
+    .london {
+        margin-left: 10px;
+    }
+
+    .product {
+        margin-left: 400px;
+    }
+
+    .linking {
+        gap: 200px;
+    }
+
+    .div-link2 {
+        margin-left: 170px;
+    }
+
+    .div-link3 {
+        margin-left: 190px;
+    }
+
+    .break {
+        display: none;
+    }
+
+    
+
+    .third-sec {
+        margin-top: 30px;
+    }
+    
+}
+/* @media screen and (max-width:768px) {
+    .hero-top {
+        margin-inline: auto;
+        margin-left: 50px;
+    }
+} */

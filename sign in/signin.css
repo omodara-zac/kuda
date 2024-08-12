@@ -1,0 +1,144 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 5px 3px rgb(227, 226, 226);
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    background-color: white;
+}
+.logo {
+    margin-left: 60px;
+}
+.open {
+    margin-right: 70px;
+}
+.acc-bttn {
+   
+    /* height: 38px; */
+    border-radius: 10px;
+    background-color: rgb(239,241,255);
+    border: 3px solid #40196D;
+    padding: 5px;
+    font-size: 13px;
+    width: 150px;
+    height: 40px;
+}
+.acc-bttn:hover {
+    transition: transform 1s;
+    transform: translateY(-5px);
+
+}
+.first-part {
+    border: medium solid rgb(239,241,255);
+    width: 380px;
+    box-shadow: 0px 0px 5px 3px rgb(227, 226, 226);
+    margin-top: 90px;
+    margin-left: 40px;
+    background-color: rgb(239,241,255);
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.please {
+    font-size: 11px;
+}
+.kuda-link {
+    font-size: 11px;
+    font-weight: 900;
+    color: rgb(72,211,138);
+    text-decoration: none;
+}
+.form-tag {
+    border: medium solid white;
+    width: 380px;
+    height: 450px;
+    /* padding: 50px; */
+    margin-left: 40px;
+    padding-left:40px ;
+    padding-top: 40px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 5px 3px rgb(227, 226, 226);
+
+}
+.sign {
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.linked {
+    font-size: 12px;
+    padding-bottom: 15px;
+    color: rgb(196,196,196);
+}
+.labels {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.label {
+    font-size: 12px;
+
+}
+.email {
+    width: 280px;
+    height: 39px;
+    padding-left: 10px;
+    border: none;
+    box-shadow: 0px 0px 3px 3px rgb(244, 243, 243);
+}
+.password {
+    width: 280px;
+    height: 39px;
+    padding-left: 10px;
+    border: none;
+    box-shadow: 0px 0px 3px 3px rgb(244, 243, 243);
+}
+.bttn {
+    margin-top: 20px;
+    width: 140px;
+    height: 50px;
+    background-color: rgb(159,140,182);
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+.account {
+    font-size: 10px;
+    color: rgb(196,196,196);
+}
+.forgot {
+    font-size: 12px;
+    color: rgb(196,196,196);
+}
+.reset {
+    text-decoration: none;
+}
+::placeholder:nth-child(2) {
+    font-size: 40px;
+}
+
+@media screen and (max-width:768px) {
+   .first-part {
+    /* border: medium solid black; */
+    margin-inline: auto;
+   }
+   .form-tag {
+    /* border: medium solid black; */
+    margin-inline: auto;
+   }
+    
+}
