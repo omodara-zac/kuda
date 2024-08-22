@@ -81,51 +81,70 @@
         /* margin-left: 30px; */
         /* margin-right: 30px; */
     }
+
     .second-sec {
         margin-left: 30px;
     }
+
     .second-sec2 {
         margin-left: 30px;
     }
+
     .fourtheen {
         display: none;
     }
+
+    .section-three {
+        display: inline;
+    }
 }
-@media(max-width: 853px) {
-.first-sec {
-    margin-left: 50px;
-}
-.second-sec {
-    margin-right: 30px;
-}
-.third-sec {
-    margin-left: 50px;
-}
-.fourth-sec {
-    margin-left: 50px;
-}
-.fifth-sec {
-    margin-left: 50px;
-}
-.six-sec {
-    margin-left: 50px;
-}
-.seven-sec {
-    margin-left: 50px;
-}
-.eight-sec {
-    margin-left: 50px;
-}
-.nine-sec {
-    margin-left: 50px;
-}
-.tenth-sec {
-    margin-left: 50px;
-}
-.eleven {
-    margin-left: 90px;
-}
-}
+
+/* @media(max-width: 853px) {
+    .first-sec {
+        margin-left: 50px;
+    }
+
+    .second-sec {
+        margin-right: 30px;
+    }
+
+    .third-sec {
+        margin-left: 50px;
+    }
+
+    .fourth-sec {
+        margin-left: 50px;
+    }
+
+    .fifth-sec {
+        margin-left: 50px;
+    }
+
+    .six-sec {
+        margin-left: 50px;
+    }
+
+    .seven-sec {
+        margin-left: 50px;
+    }
+
+    .eight-sec {
+        margin-left: 50px;
+    }
+
+    .nine-sec {
+        margin-left: 50px;
+    }
+
+    .tenth-sec {
+        margin-left: 50px;
+    }
+
+    .eleven {
+        margin-left: 90px;
+    }
+} */
+
 @media(max-width: 845px) {
     .first-sec {
         margin-left: 50px;
@@ -135,6 +154,7 @@
 
     }
 }
+
 @media(max-width: 775px) {
     .first-sec {
         margin-left: 50px;
@@ -150,15 +170,16 @@
     .first-sec {
         flex-direction: column;
         /* border: 3px solid; */
-        width: 700px;
-        margin-left: 100px;
-        padding-left: 130px;
+        width: 600px;
+        margin-top: 80px;
+        /* margin-left: 100px; */
+        /* padding-left: 130px; */
         gap: 60px;
-
+        margin-inline: auto;
     }
 
     .money {
-        /* padding-left: 10px; */
+        padding-left: 50px;
         font-size: 50px;
     }
 
@@ -167,20 +188,26 @@
     }
 
     .transfer {
+        padding-left: 50px;
         font-size: 30px;
     }
 
     .pics {
-        padding-left: 50px;
+        padding-left: 100px;
 
     }
 
     .app {
+        /* padding-left: 50px; */
         width: 200px;
     }
 
     .vid {
-        padding-left: 50px;
+        padding-left: 100px;
+    }
+
+    .fully {
+        padding-left: 110px;
     }
 
     .just-break {
@@ -189,84 +216,93 @@
 
     .second-sec {
         flex-direction: column;
-        width: 750px;
+        width: 600px;
         height: 500px;
         /* border: medium solid; */
-        margin-left: 100px;
+        /* margin-left: 100px; */
+        margin: auto;
         /* gap: -50px; */
     }
 
     .cards {
-        width: 700px;
+        width: 550px;
     }
 
     .second-sec2 {
         margin-top: -20px;
         flex-direction: column;
         /* border: medium solid; */
-        width: 900px;
+        width: 600px;
         height: 400px;
-        padding-left: 90px;
+        padding-left: 20px;
+        margin: auto;
         /* margin-left: 100px; */
         /* margin-left: -40px; */
         /* gap: -50px; */
     }
 
     .cards1 {
-        width: 700px;
+        width: 550px;
+        /* margin-left: 0px; */
+
     }
 
     .phone {
         font-size: 40px;
         /* border: medium solid; */
         width: 300px;
-        margin-left: 250px;
+        margin-left: 150px;
     }
 
     .acc {
-        margin-left: 250px;
+        /* margin-left: 250px; */
+        display: none;
     }
 
     .designed {
         /* border: medium solid; */
         width: 500px;
         font-size: 20px;
-        margin-left: 120px;
+        margin-left: 50px;
         /* padding-left: 150px; */
     }
 
     .home1 {
-        margin-left: 120px;
+        margin-left: 70px;
     }
 
     .third-sec {
         flex-direction: column;
         /* border: 3px solid; */
-        width: 700px;
-        margin-left: 100px;
+        width: 600px;
+        /* margin-left: 100px; */
         gap: 60px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
     }
 
     .fourth-sec {
-        margin-left: 100px;
+        /* margin-left: 100px; */
         flex-direction: column-reverse;
         /* border: 3px solid; */
-        width: 700px;
+        width: 600px;
         gap: 60px;
+        margin: auto;
     }
 
     .home2 {
-        margin-left: 150px;
+        margin-left: 110px;
     }
 
     .save-it {
         /* border: 3px solid; */
-        width: 400px;
-        margin-left: 130px;
+        width: 600px;
+        /* margin-left: 30px; */
     }
 
     .manage {
-        margin-left: 70px;
+        margin-left: 30px;
         width: 550px;
         /* border: medium solid; */
         font-size: 40px;
@@ -279,132 +315,156 @@
     .fifth-sec {
         flex-direction: column;
         /* border: 3px solid; */
-        width: 700px;
+        width: 600px;
         gap: 60px;
-        margin-left: 100px;
+        margin-inline: auto;
+        margin-top: 20px;
     }
 
     .spend {
         /* border: 3px solid; */
         width: 550px;
         font-size: 40px;
-        margin-left: 100px;
+        margin-left: 20px;
     }
 
     .avoid {
         /* border: 3px solid; */
-        width: 400px;
-        margin-left: 150px;
-    }
-
-    .home3 {
-        margin-left: 150px;
+        width: 600px;
+        /* margin-left: 150px; */
     }
 
     .serious {
-        margin-left: 150px;
+        padding-left: 170px;
+    }
+
+    .home3 {
+        margin-left: 100px;
+    }
+
+    .serious {
+        /* margin-left: 150px; */
         font-size: 40px;
     }
 
     .six-sec {
         flex-direction: column-reverse;
         /* border: 3px solid; */
-        width: 700px;
+        width: 600px;
         gap: 60px;
-        margin-left: 100px;
+        margin-inline: auto;
+        margin-top: 20px;
     }
 
     .seven-sec {
         flex-direction: column;
         /* border: 3px solid; */
-        width: 700px;
+        width: 600px;
         gap: 60px;
-        margin-left: 100px;
+        margin-inline: auto;
+        margin-top: 20px;
     }
 
     .happy {
         /* border: medium solid; */
         width: 540px;
         font-size: 40px;
-        /* margin-left: 40px; */
-        margin-left: 70px;
+        margin-left: 26px;
+
     }
 
     .chat {
         /* border: medium solid; */
-        width: 400px;
-        margin-left: 120px;
+        width: 590px;
+        margin-left: 10px;
     }
 
     .you {
-        margin-left: 220px;
+        padding: 220px;
     }
 
     .hello {
-        margin-left: 100px;
+        margin-left: 50px;
     }
 
     .eight-sec {
         flex-direction: column-reverse;
         /* border: 3px solid; */
-        width: 700px;
+        width: 600px;
         gap: 60px;
-        margin-left: 100px;
+        margin-inline: auto;
+        margin-top: 20px;
     }
 
     .fees {
         /* border: 3px solid; */
         width: 460px;
         font-size: 40px;
-        margin-left: 140px;
+        margin-left: 70px;
+        padding-left: 30px;
     }
 
     .banking {
         /* border: 3px solid; */
-        width: 380px;
-        margin-left: 140px;
+        width: 600px;
+        padding-left: 10px;
+        /* margin-left: 140px; */
     }
 
     .home5 {
-        margin-left: 120px;
+        margin-left: 110px;
     }
 
     .safety {
         /* border: 3px solid; */
         font-size: 40px;
-        width: 450px;
-        margin-left: 120px;
+        width: 490px;
+        margin-left: 70px;
+        padding-left: 5px;
     }
 
     .safe {
-        margin-left: 150px;
+        padding-left: 170px;
     }
 
     .happens {
         /* border: 3px solid; */
-        width: 400px;
-        margin-left: 150px;
+        width: 600px;
+        /* margin-left: 150px; */
     }
 
     .home4 {
-        margin-left: 150px;
+        margin-left: 100px;
+    }
+
+    .nine-sec {
+        width: 600px;
+        /* margin-left: 70px; */
+        /* border: medium solid green; */
+        margin-inline: auto;
     }
 
     .freedom {
-        margin-left: 10px;
+        font-size: 30px;
+        /* border: medium solid green; */
+        margin-left: -5px;
+        white-space: nowrap;
+        padding-left: 100px;
     }
 
     .vat {
-        width: 600px;
-        margin-left: 100px;
+        width: 580px;
+        margin-left: 5px;
     }
-.tenth-sec {
-    width: 750px;
-    height: 1000px;
-    /* border: 3px solid; */
-    padding-right: 30px;
-    display: none;
-}
+
+    .tenth-sec {
+        width: 600px;
+        height: 1000px;
+        /* border: 3px solid; */
+        /* padding-right: 30px; */
+        display: none;
+    }
+
 
 
     .tenth-div {
@@ -429,11 +489,15 @@
     .new-card3 {
         width: 600px;
     }
-.eleven {
-    width: 600px;
-    margin-left: 150px;
-    margin-top: -80px;
-}
+
+    .eleven {
+        /* border: medium solid; */
+        width: 600px;
+        /* margin-left: 0px; */
+        margin-top: -140px;
+        margin-inline: auto;
+    }
+
     .okay {
         display: none;
     }
@@ -459,15 +523,18 @@
     }
 
     .linking {
-        gap: 200px;
+        gap: 0px;
+        width: 700px;
+        /* border: medium solid; */
+        margin-left: 0px;
     }
 
     .div-link2 {
-        margin-left: 170px;
+        padding-left: 300px;
     }
 
     .div-link3 {
-        margin-left: 190px;
+        margin-left: 320px;
     }
 
     .break {
@@ -484,33 +551,485 @@
 
 
 
-.places {
-    font-size: 15px;
-}
-.avenue {
-    font-size: 15px;
-}
+    .places {
+        font-size: 15px;
+    }
+
+    .avenue {
+        font-size: 15px;
+    }
 
 
     .app-badge {
         display: block;
     }
+
     .vat-div {
         /* border: 2px solid black; */
         width: 800px;
     }
+
     .footer-ptags {
         font-size: 15px;
     }
+
     .anchor-div {
         font-size: 15px;
     }
+
+    .section-three {
+        display: inline;
+    }
+
+    .tenth-sec {
+        display: none;
+        width: 700px;
+        margin-left: 0px;
+        border: medium solid;
+    }
+
+    .new-card {
+        width: 380px;
+        border: medium solid;
+        margin-left: -90px;
+        /* height: 100px; */
+    }
+
+    .new-card2 {
+        width: 380px;
+        border: medium solid;
+        margin-left: -90px;
+        /* height: 100px; */
+    }
+
+    .new-card3 {
+        width: 380px;
+        border: medium solid;
+        margin-left: -90px;
+        /* height: 100px; */
+    }
 }
 
-/* @media(max-width: 300px) {
-    footer {
-        width: 100%;
-        border: none;
-        border-top: 1px solid rgb(235, 233, 229);
+@media(max-width: 426px) {
+
+    * {
+        /* border: medium solid; */
     }
-} */
+
+    .first-sec {
+        flex-direction: column;
+        /* border: 3px solid; */
+        width: 400px;
+        margin: auto;
+        margin-top: 100px;
+        /* padding-left: 130px; */
+        gap: 60px;
+
+    }
+    
+    .money {
+        /* border: medium solid green; */
+        padding-left: 30px;
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .afro {
+        padding-left: 90px;
+    }
+
+    .transfer {
+        font-size: 20px;
+        padding-left: 30px;
+    }
+
+    .pics {
+        padding: 20px 0px 20px 90px;
+
+
+    }
+
+    .app {
+        width: 100px;
+    }
+
+    .vid {
+        padding-left: 0px;
+    }
+
+    .just-break {
+        display: none;
+    }
+
+    .fully {
+        font-size: 15px;
+        padding-left: 15px;
+    }
+
+    .second-sec {
+        flex-direction: column;
+        width: 400px;
+        height: 500px;
+        /* border: medium solid; */
+        margin: auto;
+        padding-left: 5px;
+        /* gap: -50px; */
+    }
+
+    .cards {
+        width: 380px;
+        padding-left: 10px;
+    }
+
+    .second-sec2 {
+        margin-top: -20px;
+        flex-direction: column;
+        /* border: medium solid; */
+        width: 400px;
+        height: 400px;
+        padding-left: 7px;
+        margin: auto;
+        /* margin-left: -40px; */
+        /* gap: -50px; */
+    }
+
+    .cards1 {
+        width: 380px;
+        /* margin-left: 0px; */
+    }
+
+    .phone {
+        padding-left: 20px;
+        font-size: 30px;
+        /* border: medium solid; */
+        width: 250px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .acc {
+        display: none;
+        /* border: medium solid; */
+        margin-left: 80px;
+        width: 230px;
+    }
+
+    .designed {
+        /* border: medium solid; */
+        width: 380px;
+        font-size: 15px;
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+
+    .home1 {
+        width: 300px;
+        margin-left: 30px;
+    }
+
+    .third-sec {
+        flex-direction: column;
+        /* border: 3px solid; */
+        width: 400px;
+        margin: auto;
+        gap: 60px;
+        margin-bottom: 20px;
+    }
+
+    .fourth-sec {
+        flex-direction: column-reverse;
+        /* border: 3px solid; */
+        width: 400px;
+        margin: auto;
+        gap: 60px;
+        margin-bottom: 20px;
+    }
+
+    .home2 {
+        width: 300px;
+        /* padding-left: 20px; */
+        margin-left: 50px;
+    }
+
+    .save-it {
+        /* border: 3px solid; */
+        width: 380px;
+        font-size: 15px;
+        padding-left: 20px;
+        /* margin-left: 130px; */
+    }
+
+    .manage {
+        /* margin-left: 50px; */
+        margin-inline: auto;
+        width: 300px;
+        /* border: medium solid; */
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .manage-it {
+        margin-left: 70px;
+    }
+
+    .fifth-sec {
+        flex-direction: column;
+        /* border: 3px solid; */
+        width: 400px;
+        margin: auto;
+        gap: 60px;
+        margin-bottom: 20px;
+    }
+
+    .spend {
+        /* border: 3px solid; */
+        width: 300px;
+        font-size: 20px;
+        margin: auto;
+        margin-bottom: 20px;
+        /* margin-bottom: 30px; */
+    }
+
+    .avoid {
+        /* border: 3px solid; */
+        width: 380px;
+        padding-left: 5px;
+        margin-inline: auto;
+        /* margin-left: 150px; */
+    }
+
+    .home3 {
+        width: 300px;
+        /* padding-left: 20px; */
+        margin-left: 50px;
+    }
+
+    .serious {
+        /* border: 3px solid; */
+        padding-left: 100px;
+        font-size: 20px;
+    }
+
+    .six-sec {
+        flex-direction: column-reverse;
+        /* border: 3px solid; */
+        width: 400px;
+        margin: auto;
+        gap: 60px;
+        margin-bottom: 20px;
+    }
+
+    .safety {
+        /* border: 3px solid; */
+        font-size: 25px;
+        width: 300px;
+        margin: auto;
+        /* margin-left: 120px; */
+        margin-bottom: 30px;
+    }
+
+    .safe {
+        padding-left: 90px;
+    }
+
+    .happens {
+        /* border: 3px solid; */
+        width: 380px;
+        padding-left: 0px;
+        margin-inline: auto;
+        /* margin-left: 150px; */
+    }
+
+    .home4 {
+        margin-left: 50px;
+        width: 300px;
+    }
+
+    .seven-sec {
+        flex-direction: column;
+        /* border: 3px solid; */
+        width: 400px;
+        margin: auto;
+        gap: 60px;
+        margin-bottom: 20px;
+    }
+
+    .happy {
+        /* border: medium solid; */
+        width: 290px;
+        font-size: 20px;
+        margin: auto;
+        padding-left: 10px;
+        /* margin-left: 70px; */
+        margin-bottom: 30px;
+    }
+
+    .chat {
+        /* border: medium solid; */
+        width: 380px;
+        margin-inline: auto;
+        /* margin-left: 120px; */
+    }
+
+    .you {
+        margin-left: 110px;
+    }
+
+    .hello {
+        margin-left: 50px;
+        width: 300px;
+    }
+
+    .eight-sec {
+        flex-direction: column-reverse;
+        /* border: 3px solid; */
+        width: 400px;
+        margin: auto;
+        gap: 60px;
+        margin-bottom: 50px;
+    }
+
+    .fees {
+        /* border: 3px solid; */
+        width: 290px;
+        font-size: 20px;
+        margin: auto;
+        margin-bottom: 30px;
+        /* margin-left: 140px; */
+    }
+
+    .banking {
+        /* border: 3px solid; */
+        width: 380px;
+        /* padding-left: 10px; */
+        margin-inline: auto;
+    }
+
+    .home5 {
+        width: 300px;
+        /* padding-left: 20px; */
+        margin-left: 50px;
+    }
+
+    .dont {
+        margin-top: 30px;
+        border: medium solid white;
+        font-size: 10px;
+    }
+
+    .nine-sec {
+        width: 400px;
+        margin: auto;
+        height: 310px;
+    }
+
+    .freedom {
+        padding: 0;
+        width: 310px;
+        /* border: medium solid; */
+        margin: auto;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .vat {
+        width: 380px;
+        margin: 10px;
+        /* height: 700px; */
+    }
+
+    .eleven {
+        /* border: medium solid; */
+        width: 400px;
+        margin: auto;
+        /* height: 200px; */
+        /* margin-top: -70px; */
+        margin-bottom: 40px;
+    }
+
+    .save-spend {
+        padding-bottom: 20px;
+    }
+
+    .section-three {
+        display: none;
+        border: medium solid;
+    }
+
+    .avenue {
+        padding-bottom: 20px;
+    }
+
+    .contact-div {
+        padding-bottom: 20px;
+    }
+
+    .section-three {
+        display: inline;
+    }
+
+    .tenth-sec {
+        display: none;
+        width: 700px;
+        margin-left: 0px;
+        border: medium solid;
+    }
+
+    .new-card {
+        width: 380px;
+        border: medium solid;
+        margin-left: -90px;
+        /* height: 100px; */
+    }
+
+    .new-card2 {
+        width: 380px;
+        border: medium solid;
+        margin-left: -90px;
+        /* height: 100px; */
+    }
+
+    .new-card3 {
+        width: 380px;
+        border: medium solid;
+        margin-left: -90px;
+        /* height: 100px; */
+    }
+
+    .div-link2 {
+        padding-left: 40px;
+        margin-left: 0px;
+    }
+
+    .div-link3 {
+        padding-left: 60px;
+        margin-left: 0px;
+    }
+
+    .linking {
+        width: 350px;
+        /* margin-left: 20px; */
+
+    }
+    .cashless {
+        padding-left: 12px;
+    }
+    .with {
+        padding-left: 60px;
+    }
+    .make {
+        padding-left: 70px; 
+    }
+    .footer-ptags {
+        margin-left: 20px;
+    }
+    .fiftheen {
+        margin-left: 20px;
+    }
+    .twelve {
+        margin-left: 20px;
+    }
+    .london {
+        margin-left: 0px;
+    }
+}

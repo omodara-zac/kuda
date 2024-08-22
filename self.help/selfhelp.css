@@ -78,6 +78,15 @@ h4 {
     /* align-items: center; */
     /* padding-left: 300px; */
 }
+.all-pz {
+    /* margin-top: 20px; */
+    margin-bottom: 40px;
+    /* font-size: 12px; */
+    /* border: medium solid; */
+    /* padding-top: 20px; */
+    /* align-items: center; */
+    /* padding-left: 300px; */
+}
 /* .arrow {
     padding-left: 700px;
     font-size: 15px;
@@ -122,6 +131,31 @@ h4 {
     cursor: pointer;
 }
 
+@media screen and (max-width: 950px) {
+  
+    .all {
+        margin-inline: auto;
+        width: 800px;
+        /* margin-left: 20px; */
+        /* margin-right: 90px; */
+    }
+    .arrow-div {
+        margin-right: 30px;
+    }
+}
+@media screen and (max-width: 805px) {
+  
+    .all {
+        margin-inline: auto;
+        width: 780px;
+        /* margin-left: 20px; */
+        /* margin-right: 90px; */
+    }
+    .arrow-div {
+        margin-right: 30px;
+    }
+}
+
 @media screen and (max-width:768px) {
     /* .welcome {
         border: 2px solid;
@@ -131,12 +165,40 @@ h4 {
         font-size: 3em;
     } */
     .all {
-        /* margin-inline: auto;
-        width: 380px; */
-        margin-left: 20px;
+        margin-inline: auto;
+        width: 700px;
+        /* margin-left: 20px; */
         /* margin-right: 90px; */
     }
     .arrow-div {
         margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+ * {
+    /* border: medium solid; */
+ }
+ .welcome {
+    
+ }
+ h1 {
+    width: 300px;
+    font-size: 20px;
+ }
+    .all {
+        margin-inline: auto;
+        width: 390px;
+        padding-left: 20px;
+        /* margin-left: 20px; */
+        /* border: medium solid; */
+        /* margin-right: 90px; */
+    }
+    .arrow-div {
+        margin-right: 30px;
+    }
+    .all-pz {
+        /* border: medium solid; */
+        width: 250px;
     }
 }

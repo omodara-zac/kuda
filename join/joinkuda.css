@@ -57,11 +57,11 @@ nav {
 
 }
 
-/* .join-kuda:hover {
+.join-kuda:hover {
     transition: transform 1s;
     transform: translateY(-5px);
 
-} */
+}
 .link-name2 {
     color: #40196D;
     font-size: 13px;
@@ -261,6 +261,7 @@ nav {
     /* border: 3px solid; */
     width: 1000px;
 }
+
 .menu-bar {
     display: none;
 }
@@ -269,6 +270,10 @@ nav {
 
 
 @media(max-width: 964px) {
+    * {
+        /* border: medium solid; */
+    }
+
     .link-name {
         display: none;
     }
@@ -280,50 +285,86 @@ nav {
     .join-kuda {
         display: none;
     }
-    
+
     .first-sec {
-        margin-left: 20px;
-        margin-right: 20px;
+        width: 900px;
+        margin-inline: auto;
+        /* border: medium solid; */
+        /* margin-left: 20px;
+        margin-right: 20px; */
+        padding: 0 30px 0 50px;
     }
 
     .second-sec {
-        margin-left: 20px;
+        width: 900px;
+        margin-top: 50px;
+        margin-inline: auto;
+        /* margin-left: 20px; */
+        /* border: medium solid; */
+    }
+
+    .cards {
+        /* border: medium solid; */
+        /* width: 880px; */
+        margin-right: 10px;
+        height: 170px;
     }
 
     .third-sec {
+        margin-top: -70px;
+        width: 900px;
         margin-left: 20px;
+        gap: 30px;
+        /* margin-right: 20px; */
     }
 
     .fourth-sec {
+      
         margin-left: 20px;
     }
 
     .fifth-sec {
+  
+        width: 900px;
         margin-left: 20px;
     }
 
     .six-sec {
+        margin-top: 30px;
+        gap: 30px;
+        width: 900px;
         margin-left: 20px;
     }
 
     .footer-ptags {
+        width: 900px;
         margin-left: 20px;
     }
+
     .menu-bar {
         display: inline;
         /* color: black; */
     }
+
     .menu {
         color: black;
         font-size: 25px;
         margin-left: -100px;
     }
+
     .naija {
         margin-left: 400px;
     }
+    .product {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width:768px) {
+    * {
+        /* border: medium solid; */
+    }
     .link-name {
         display: none;
     }
@@ -336,20 +377,21 @@ nav {
         display: none;
     }
 
-   
+
 
     .break {
         display: none;
-        border: medium solid black;
-        width: 300px;
-        height: 40px;
+        /* border: medium solid black; */
+        /* width: 300px;
+        height: 40px; */
     }
 
     .first-sec {
         flex-direction: column;
         width: 40em;
-        margin-left: 150px;
-        border: 2px solid black;
+        /* margin-left: 150px; */
+        /* border: 2px solid black; */
+        margin-inline: auto;
 
     }
 
@@ -386,14 +428,17 @@ nav {
     .qr-code {
         margin-left: 70px;
     }
-.join-pics {
-    margin-left: 90px;
-}
+
+    .join-pics {
+        margin-left: 90px;
+    }
+
     .second-sec {
         flex-direction: column;
-        width: 750px;
+        margin-inline: auto;
+        width: 700px;
         height: 380px;
-        margin-left: 150px;
+        /* margin-left: 150px; */
         /* border: 2px solid black; */
         padding-left: 10px;
         padding-right: 10px;
@@ -401,7 +446,7 @@ nav {
     }
 
     .cards {
-        width: 700px;
+        width: 680px;
         display: flex;
         align-items: center;
         height: 90px;
@@ -426,18 +471,48 @@ nav {
 
     .third-sec {
         flex-direction: column;
+        width: 700px;
+    }
+    .fifth-sec {
+        /* border: medium solid; */
+        /* flex-direction: column; */
+        width: 700px;
     }
 
     .six-sec {
+        margin-top: 40px;
         flex-direction: column;
+        width: 700px;
+    }
+
+    footer {
+        width: 700px;
+    }
+    .link-p {
+        font-size: 20px;
+    }
+    .anchor-div {
+        font-size: 20px;
+    }
+    .contact {
+        font-size: 20px;
+    }
+    .help {
+        font-size: 20px;
+    }
+.places {
+    font-size: 25px;
+}
+.avenue {
+    font-size: 20px;
+}
+    .footer-ptags {
+        width: 700px;
+        font-size: 17px;
     }
 
     .london {
         margin-left: 10px;
-    }
-
-    .product {
-        margin-left: 400px;
     }
 
     .linking {
@@ -448,12 +523,218 @@ nav {
         margin-left: 170px;
     }
 
+    .product {
+        display: none;
+        /* border: medium solid; */
+        width: 300px;
+        /* margin-inline: auto; */
+        margin-left: 20px; 
+    }
+
     .div-link3 {
         margin-left: 190px;
     }
 }
-@media screen and (max-width:251px) {
-.menu-bar {
-    display: none;
+
+@media screen and (max-width:426px) {
+* {
+    /* border: medium solid; */
+}
+/* .naija {
+    margin-left: -60px;
+  
+}
+.menu {
+    margin-left: -50px;
+    padding-top: 10px;
+} */
+    .first-sec {
+        flex-direction: column;
+       /* border: medium solid; */
+        /* margin-left: 150px; */
+       width: 400px;
+        margin-inline: auto;
+
+    }
+
+    .download {
+        font-size: 30px;
+        /* border: medium solid black; */
+        width: 300px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    .camera {
+        /* border: medium solid black; */
+        width: 300px;
+        font-size: 15px;
+        
+        /* margin-left: 50px; */
+    }
+
+    .pics {
+        /* border: 3px solid; */
+        width: 200px;
+        margin-left: 100px;
+    }
+
+    .app {
+        width: 90px;
+
+    }
+
+    .fully {
+        margin-left: 55px;
+    }
+
+    .qr-code {
+        /* border: medium solid; */
+        margin-left: 150px;
+    }
+
+    .join-pics {
+        margin-left: 30px;
+        width: 350px;
+    }
+    .second-sec {
+        flex-direction: column;
+        margin-inline: auto;
+        width: 400px;
+        height: 380px;
+        /* margin-left: 150px; */
+        /* border: 2px solid black; */
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .cards {
+        width: 380px;
+        display: flex;
+        align-items: center;
+        height: 90px;
+
+    }
+
+    .first-card {
+        padding: 10px 0 0 10px;
+        font-size: 15px;
+    }
+
+    .second-card {
+        padding: 10px 0 0 10px;
+        font-size: 15px;
+    }
+
+    .third-card {
+        padding: 10px 0 0 10px;
+        font-size: 15px;
+    }
+
+    .card-pic {
+        width: 50px;
+    }
+
+    .third-sec {
+        flex-direction: column;
+        width: 400px;
+        /* border: 3px solid; */
+        margin-inline: auto;
+        padding: 0 20px 0 20px;
+    }
+    .linking {
+        gap: 30px;
+    }
+    .div-link2 {
+        padding-right: 40px;
+    }
+    .fifth-sec {
+     
+        /* flex-direction: column; */
+        width: 400px;
+        margin-left: 0px;
+       
+    }
+
+    .six-sec {
+        margin-top: 30px;
+        /* border: 3px solid; */
+        /* padding-left: 20px; */
+        flex-direction: column;
+        width: 400px;
+        margin-left: 0px;
+        padding: 0 20px 0 10px;
+        font-size: 15px;
+    }
+
+    footer {
+        width: 400px;
+    }
+
+    .footer-ptags {
+        margin-left: 0px;
+        width: 390px;
+        font-size: 15px;
+        padding: 0 20px 0 20px;
+    }
+
+    .london {
+        margin-left: 10px;
+    }
+
+    .linking {
+        gap: 200px;
+    }
+
+  
+
+    .product {
+        display: none;
+        /* border: medium solid; */
+        width: 300px;
+        /* margin-inline: auto; */
+        margin-left: 20px; 
+    }
+
+   
+    .fourth-sec {
+    width: 380px;
+    margin-inline: auto;
+    }
+    .store-pic {
+        width: 100px;
+    }
+    .link-p {
+        font-size: 15px;
+    }
+    .anchor-div {
+        font-size: 15px;
+    }
+    .contact {
+        font-size: 15px;
+    }
+    .help {
+        font-size: 15px;
+    }
+.places {
+    font-size: 25px;
+}
+.avenue {
+    font-size: 20px;
+}
+.div-link2 {
+    padding-left: 50px;
+    margin-left: 0px;
+}
+
+.div-link3 {
+    padding-left: 60px;
+    margin-left: 0px;
+}
+
+.linking {
+    width: 350px;
+
 }
 }
